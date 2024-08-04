@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financefriend - Services</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fde6e6; /* Light pink background */
+            color: #333; /* Dark text color */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        header {
+            background-color: #f27c7c; /* Darker pink */
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 0;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #fff;
+        }
+        .services {
+            text-align: center;
+            margin: 100px 20px 20px;
+            padding: 40px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+        .services h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #f27c7c; /* Darker pink */
+        }
+        .services a {
+            display: block;
+            margin: 15px 0;
+            font-size: 1.5em;
+            color: #f27c7c; /* Darker pink */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .services a:hover {
+            color: #fff;
+            background-color: #f27c7c; /* Darker pink */
+            border-radius: 5px;
+        }
+        .decorative-element {
+            position: absolute;
+            background: #f7a8a8;
+            border-radius: 50%;
+            opacity: 0.5;
+        }
+        .decorative-element.one {
+            width: 200px;
+            height: 200px;
+            top: 10%;
+            left: 10%;
+        }
+        .decorative-element.two {
+            width: 300px;
+            height: 300px;
+            bottom: 15%;
+            right: 15%;
+        }
+        .decorative-element.three {
+            width: 150px;
+            height: 150px;
+            top: 60%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .return-button {
+            background-color: #ff6666; /* Red color */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .return-button:hover {
+            background-color: #cc3333; /* Darker red on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Financefriend</h1>
+    </header>
+    <div class="services">
+        <h2>Services</h2>
+        <a href="notifs.html">Real-time updates</a>
+        <a href="goals.html">Financial Goals</a>
+        <a href="tips.html">Financial Hub</a>
+        <a href="wallet.html">Digital Wallet</a>
+        <a href="contact.html">Contact us</a>
+    </div>
+    <a href="mainpage.html" class="return-button">Return to Main Page</a>
+    <div class="decorative-element one"></div>
+    <div class="decorative-element two"></div>
+    <div class="decorative-element three"></div>
+</body>
+</html>
